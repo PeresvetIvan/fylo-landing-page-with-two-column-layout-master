@@ -13,12 +13,12 @@
 
     @media screen and (min-width: $Desktop) {
 
-        padding-bottom: 250px;
+        padding-bottom: 200px;
 
         
         &__container {
             display: grid;
-            grid-template-columns:  2fr 3fr;
+            grid-template-columns:  1fr 1fr;
             gap: 2rem;
         }
     }

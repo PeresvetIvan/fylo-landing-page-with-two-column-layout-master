@@ -235,7 +235,7 @@ button, input {
 
 @media screen and (min-width: 1100px) {
   .nav {
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     grid-column: 1 / -1;
   }
 }
@@ -326,8 +326,8 @@ button, input {
         -ms-flex-order: 1;
             order: 1;
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 40%;
-            flex: 1 0 40%;
+        -ms-flex: 1 0 45%;
+            flex: 1 0 45%;
   }
   .main__link {
     font-size: 1.1rem;
@@ -503,13 +503,13 @@ button, input {
 
 @media screen and (min-width: 1100px) {
   .header {
-    padding-bottom: 250px;
+    padding-bottom: 200px;
   }
   .header__container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 2fr 3fr;
-        grid-template-columns: 2fr 3fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }
