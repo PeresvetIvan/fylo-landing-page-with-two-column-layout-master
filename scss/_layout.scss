@@ -1,0 +1,98 @@
+.container {
+    padding: 0 2rem;
+    margin: auto;
+    max-width: 1400px;
+
+    @media screen and (min-width: $Desktop) {
+        padding: 0 4rem;
+    }
+}
+
+.header {
+    padding: 2rem 0 150px;
+
+    @media screen and (min-width: $Desktop) {
+
+        padding-bottom: 250px;
+
+        
+        &__container {
+            display: grid;
+            grid-template-columns:  2fr 3fr;
+            gap: 2rem;
+        }
+    }
+}
+
+.main {
+    padding: 2rem 0 0;
+
+    &__container {
+        padding-bottom: 100px;
+    }
+
+    @media screen and (min-width: $Desktop) {
+
+        &__container {
+            display: flex;
+            align-items: center;
+        }
+
+    }
+}
+
+.ad {
+
+    @media screen and (min-width: $Desktop) {
+
+            padding-left: 0;
+        padding-right: 0;
+
+        &__container {
+            display: flex;
+        }
+    }
+}
+
+.footer {
+
+    padding: 4rem 0 0;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 900px;
+        align-items: flex-start;
+    }
+
+    &__menu {
+        flex: 2 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    @media screen and (min-width: $Desktop) {
+
+        padding-bottom: 4rem;
+
+        &__container {
+            display: grid;
+            grid-template-columns: repeat(2, 2fr) 1fr;
+            height: auto;
+            font-size: 1rem;
+            gap: 2rem;
+        }
+
+        &__menu {
+            flex-wrap: wrap;
+            flex-direction: row;
+            line-height: 2.5;
+
+        }
+    }
+}
+
